@@ -91,15 +91,17 @@ img {
   justify-content: space-between;
 }
 
-.nav-logo-img {
-  height: 32px;
-  width: auto;
-  transition: opacity 0.2s, filter 0.3s;
-  filter: brightness(0) invert(1);
+.nav-logo-text {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--offwhite);
+  transition: color 0.3s;
 }
 
-.nav.scrolled .nav-logo-img {
-  filter: none;
+.nav.scrolled .nav-logo-text {
+  color: var(--safira);
 }
 
 .nav-logo:hover .nav-logo-img {
@@ -150,6 +152,40 @@ img {
 .nav-link.active::after,
 .nav-link:hover::after {
   width: 100%;
+}
+
+/* Nav Social Icons */
+.nav-socials {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: 1rem;
+  padding-left: 1.5rem;
+  border-left: 1px solid rgba(239, 235, 219, 0.15);
+}
+
+.nav.scrolled .nav-socials {
+  border-left-color: rgba(42, 41, 38, 0.1);
+}
+
+.nav-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(239, 235, 219, 0.4);
+  transition: color 0.3s;
+}
+
+.nav-social:hover {
+  color: var(--ambar);
+}
+
+.nav.scrolled .nav-social {
+  color: var(--cinza);
+}
+
+.nav.scrolled .nav-social:hover {
+  color: var(--safira);
 }
 
 /* Hamburger */
@@ -225,6 +261,29 @@ img {
 }
 
 .mobile-link:hover {
+  color: var(--ambar);
+}
+
+.mobile-socials {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.mobile-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(143, 184, 204, 0.2);
+  color: rgba(239, 235, 219, 0.5);
+  transition: all 0.3s ease;
+}
+
+.mobile-social:hover {
+  border-color: var(--ambar);
   color: var(--ambar);
 }
 
@@ -307,10 +366,10 @@ img {
 .hero-title {
   font-family: var(--font-body);
   font-weight: 300;
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
-  line-height: 1.1;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  line-height: 1.05;
   color: rgba(239, 235, 219, 0.4);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
   opacity: 0;
   transform: translateY(30px);
   animation: fadeUp 0.8s ease 0.5s forwards;
@@ -323,11 +382,11 @@ img {
 
 .hero-subtitle {
   font-family: var(--font-display);
-  font-size: clamp(0.85rem, 1.2vw, 1.05rem);
+  font-size: clamp(0.9rem, 1.3vw, 1.15rem);
   font-weight: 300;
-  color: rgba(239, 235, 219, 0.45);
+  color: rgba(239, 235, 219, 0.55);
   line-height: 1.8;
-  max-width: 540px;
+  max-width: 580px;
   margin-bottom: 4rem;
   opacity: 0;
   transform: translateY(20px);
@@ -463,14 +522,32 @@ img {
   align-items: start;
 }
 
-.about-stats {
+/* About Photo */
+.about-photo {
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding-top: 1rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about-photo img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 14px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Stats Row */
+.about-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
 }
 
 .stat {
+  flex: 1;
   padding: 1.5rem;
   background: var(--alabastro);
   border-radius: 12px;
@@ -491,6 +568,129 @@ img {
   font-size: 0.8rem;
   color: var(--cinza);
   line-height: 1.5;
+}
+
+/* ── CAREER HIGHLIGHTS ── */
+.about-divider {
+  border: none;
+  border-top: 1px solid var(--cinza-light);
+  margin: 3.5rem 0;
+}
+
+.career-highlights-title {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--onix);
+  margin-bottom: 2rem;
+}
+
+.career-section {
+  margin-bottom: 1.75rem;
+}
+
+.career-cat {
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ambar);
+  margin-bottom: 0.75rem;
+}
+
+.career-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  padding: 0.6rem 0;
+  border-bottom: 0.5px solid rgba(42, 41, 38, 0.06);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: var(--onix);
+  line-height: 1.6;
+}
+
+.career-item:last-child {
+  border-bottom: none;
+}
+
+.career-item strong {
+  font-weight: 500;
+  color: var(--safira);
+}
+
+.career-year {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--cinza);
+  letter-spacing: 0.06em;
+  min-width: 60px;
+  flex-shrink: 0;
+}
+
+.career-link {
+  color: var(--safira);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(23, 55, 78, 0.2);
+  transition: border-color 0.2s;
+}
+
+.career-link:hover {
+  border-color: var(--safira);
+}
+
+.career-link strong {
+  color: inherit;
+}
+
+.career-expandable {
+  display: none;
+}
+
+.career-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: none;
+  border: 1px solid var(--cinza-light);
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--safira);
+  transition: all 0.3s ease;
+}
+
+.career-toggle:hover {
+  background: var(--safira);
+  color: var(--offwhite);
+  border-color: var(--safira);
+}
+
+.career-toggle-icon {
+  transition: transform 0.3s ease;
+}
+
+.career-toggle[aria-expanded="true"] .career-toggle-icon {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 600px) {
+  .career-item {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .career-year {
+    min-width: unset;
+  }
 }
 
 /* ── BELIEFS GRID ── */
@@ -822,6 +1022,8 @@ img {
   color: var(--offwhite);
   background: var(--onix);
   padding: 1.15rem 2.25rem;
+  min-width: 275px;
+  text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -859,15 +1061,28 @@ img {
   overflow: hidden;
 }
 
+.section-escritorio .container {
+  max-width: 100%;
+  padding: 0;
+}
+
 .escritorio-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr max(420px, calc((1120px / 2) + 2rem));
   min-height: 560px;
 }
 
 .escritorio-image {
   position: relative;
   overflow: hidden;
+}
+
+.escritorio-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, var(--onix) 0%, transparent 20%, transparent 80%, var(--onix) 100%);
+  pointer-events: none;
 }
 
 .escritorio-image img {
@@ -881,7 +1096,8 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5rem 4rem;
+  padding: 5rem 0 5rem 3rem;
+  margin-right: max(2rem, calc((100vw - 1120px) / 2));
 }
 
 .escritorio-title {
@@ -1013,6 +1229,10 @@ img {
     display: none;
   }
 
+  .nav-socials {
+    display: none;
+  }
+
   .nav-toggle {
     display: block;
   }
@@ -1024,6 +1244,28 @@ img {
   .about-grid {
     grid-template-columns: 1fr;
     gap: 2.5rem;
+  }
+
+  .about-photo {
+    order: -1;
+    overflow: hidden;
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+  }
+
+  .about-photo img {
+    max-width: none;
+    width: 100%;
+    max-height: 500px;
+    min-height: 800px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 0;
+  }
+
+  .about-stats-row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
   .beliefs-grid {
@@ -1075,8 +1317,90 @@ img {
     padding-bottom: 2rem;
   }
 
+  /* ── MOBILE: Bigger titles ── */
   .section-title {
-    font-size: clamp(1.6rem, 6vw, 2.5rem);
+    font-size: clamp(2.2rem, 9vw, 3rem);
+  }
+
+  .hero-title {
+    font-size: clamp(2.4rem, 10vw, 4rem);
+  }
+
+  .escritorio-title {
+    font-size: 2.2rem;
+  }
+
+  .contact-question {
+    font-size: 2rem;
+  }
+
+  .cta-title {
+    font-size: 1.4rem;
+  }
+
+  /* ── MOBILE: Bigger body text ── */
+  .prose {
+    font-size: 1.15rem;
+    line-height: 1.9;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    color: rgba(239, 235, 219, 0.6);
+    line-height: 1.9;
+  }
+
+  .belief-text {
+    font-size: 1.05rem;
+  }
+
+  .conviction p {
+    font-size: 1.1rem;
+  }
+
+  .area-desc {
+    font-size: 1rem;
+  }
+
+  .highlight-content h3 {
+    font-size: 1.05rem;
+  }
+
+  .highlight-content p {
+    font-size: 0.95rem;
+  }
+
+  .belief-title {
+    font-size: 1.1rem;
+  }
+
+  .area-title {
+    font-size: 1.15rem;
+  }
+
+  /* ── MOBILE: Higher contrast on dark backgrounds ── */
+  .prose-light {
+    color: rgba(239, 235, 219, 0.9);
+  }
+
+  .prose-escritorio {
+    color: rgba(239, 235, 219, 0.85);
+  }
+
+  .belief-text {
+    color: rgba(239, 235, 219, 0.88);
+  }
+
+  .conviction p {
+    color: rgba(239, 235, 219, 0.9);
+  }
+
+  .highlight-content p {
+    color: rgba(239, 235, 219, 0.6);
+  }
+
+  .contact-text {
+    color: rgba(239, 235, 219, 0.8);
   }
 
   .stat {

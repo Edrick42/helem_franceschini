@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     '.section-eyebrow, .section-title, .prose, .about-stats, .belief-card, ' +
     '.conviction, .area-card, .highlight, .cta-container, .contact-grid, ' +
     '.beliefs-grid, .convictions-list, .areas-grid, .highlights-list, ' +
+    '.about-photo, .about-stats-row, ' +
     '.escritorio-content, .escritorio-image, .escritorio-title, ' +
     '.contact-split, .contact-question, .contact-action-btn'
   );
@@ -125,6 +126,26 @@ document.addEventListener('DOMContentLoaded', () => {
   checkReveal();
   setTimeout(checkReveal, 300);
   setTimeout(checkReveal, 800);
+
+  // ── CAREER HIGHLIGHTS TOGGLE ──
+  const careerToggle = document.getElementById('careerToggle');
+  const careerMore = document.getElementById('careerMore');
+
+  if (careerToggle && careerMore) {
+    careerToggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      var isExpanded = this.getAttribute('aria-expanded') === 'true';
+      if (isExpanded) {
+        careerMore.style.display = 'none';
+        this.setAttribute('aria-expanded', 'false');
+        this.querySelector('.career-toggle-text').textContent = 'Ver currículo completo';
+      } else {
+        careerMore.style.display = 'block';
+        this.setAttribute('aria-expanded', 'true');
+        this.querySelector('.career-toggle-text').textContent = 'Recolher';
+      }
+    });
+  }
 
   // ── SMOOTH SCROLL FOR ANCHOR LINKS ──
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
