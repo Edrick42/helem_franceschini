@@ -127,35 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
   setTimeout(checkReveal, 300);
   setTimeout(checkReveal, 800);
 
-  // ── CAREER HIGHLIGHTS TOGGLE ──
-  const careerToggle = document.getElementById('careerToggle');
-  const careerMore = document.getElementById('careerMore');
-
-  if (careerToggle && careerMore) {
-    careerToggle.addEventListener('click', function(e) {
-      e.preventDefault();
-      var isExpanded = this.getAttribute('aria-expanded') === 'true';
-      if (isExpanded) {
-        careerMore.style.display = 'none';
-        this.setAttribute('aria-expanded', 'false');
-        this.querySelector('.career-toggle-text').textContent = 'Ver currículo completo';
-      } else {
-        careerMore.style.display = 'block';
-        this.setAttribute('aria-expanded', 'true');
-        this.querySelector('.career-toggle-text').textContent = 'Recolher';
-      }
-    });
-  }
-
-  // ── SMOOTH SCROLL FOR ANCHOR LINKS ──
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', (e) => {
-      e.preventDefault();
-      const target = document.querySelector(anchor.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({ behavior: 'smooth' });
-      }
-    });
-  });
+  // Career toggle is handled via inline onclick in HTML for reliability
 
 });

@@ -4,6 +4,25 @@
    Tipografia: Inter (títulos) + Frank Ruhl Libre (corpo)
    ======================================== */
 
+/* ── SKIP LINK ── */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.75rem 1.5rem;
+  background: var(--safira);
+  color: var(--offwhite);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  border-radius: 0 0 8px 8px;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 /* ── RESET & BASE ── */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -511,7 +530,7 @@ img {
 }
 
 .prose-light {
-  color: rgba(239, 235, 219, 0.7);
+  color: rgba(239, 235, 219, 0.82);
 }
 
 /* ── ABOUT GRID ── */
@@ -646,10 +665,6 @@ img {
   color: inherit;
 }
 
-.career-expandable {
-  display: none;
-}
-
 .career-toggle {
   display: inline-flex;
   align-items: center;
@@ -726,7 +741,7 @@ img {
   font-family: var(--font-body);
   font-size: 0.95rem;
   font-weight: 300;
-  color: rgba(239, 235, 219, 0.7);
+  color: rgba(239, 235, 219, 0.8);
   line-height: 1.7;
 }
 
@@ -766,7 +781,7 @@ img {
   font-family: var(--font-body);
   font-size: 1rem;
   font-weight: 300;
-  color: rgba(239, 235, 219, 0.75);
+  color: rgba(239, 235, 219, 0.82);
   line-height: 1.75;
 }
 
@@ -864,7 +879,7 @@ img {
   font-family: var(--font-body);
   font-size: 0.9rem;
   font-weight: 300;
-  color: rgba(239, 235, 219, 0.45);
+  color: rgba(239, 235, 219, 0.58);
   line-height: 1.6;
 }
 
@@ -1223,6 +1238,41 @@ img {
   transform: translateY(0);
 }
 
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Career expandable smooth transition */
+.career-expandable {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: grid-template-rows 0.4s ease;
+}
+
+.career-expandable.open {
+  grid-template-rows: 1fr;
+}
+
+.career-expandable > * {
+  overflow: hidden;
+  min-height: 0;
+}
+
 /* ── RESPONSIVE ── */
 @media (max-width: 900px) {
   .nav-links {
@@ -1257,7 +1307,7 @@ img {
     max-width: none;
     width: 100%;
     max-height: 500px;
-    min-height: 800px;
+    min-height: 750px;
     object-fit: cover;
     object-position: top center;
     border-radius: 0;
