@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── REVEAL ON SCROLL ──
   const revealElements = document.querySelectorAll(
     '.section-eyebrow, .section-title, .prose, .about-stats, .belief-card, ' +
-    '.conviction, .area-card, .highlight, .cta-container, .contact-grid, ' +
+    '.conviction, .area-card, .area-card-glass, .highlight, .cta-container, .contact-grid, ' +
     '.beliefs-grid, .convictions-list, .areas-grid, .highlights-list, ' +
     '.about-photo, .about-stats-row, ' +
     '.escritorio-content, .escritorio-image, .escritorio-title, ' +
