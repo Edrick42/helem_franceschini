@@ -1353,7 +1353,7 @@ a.location-link:hover {
 
 .escritorio-grid {
   display: grid;
-  grid-template-columns: 1fr max(420px, calc((1120px / 2) + 2rem));
+  grid-template-columns: 1.2fr 1fr;
   min-height: 560px;
 }
 
@@ -1381,8 +1381,7 @@ a.location-link:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5rem 0 5rem 3rem;
-  margin-right: max(2rem, calc((100vw - 1120px) / 2));
+  padding: 5rem 4rem;
 }
 
 .escritorio-title {
@@ -1404,7 +1403,7 @@ a.location-link:hover {
 
 .prose-escritorio {
   color: rgba(239, 235, 219, 0.78);
-  max-width: 500px;
+  max-width: none;
 }
 
 @media (max-width: 900px) {
