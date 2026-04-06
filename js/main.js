@@ -127,6 +127,4 @@ document.addEventListener('DOMContentLoaded', () => {
   setTimeout(checkReveal, 300);
   setTimeout(checkReveal, 800);
 
-  // Career toggle is handled via inline onclick in HTML for reliability
-
 });
