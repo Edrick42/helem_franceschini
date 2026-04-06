@@ -1416,6 +1416,10 @@ a.location-link:hover {
     height: 300px;
   }
 
+  .escritorio-image::after {
+    background: linear-gradient(to bottom, transparent 0%, transparent 85%, var(--onix) 100%);
+  }
+
   .escritorio-content {
     padding: 3rem 2rem;
   }
@@ -1631,6 +1635,10 @@ a.location-link:hover {
 
   .section {
     padding: 4rem 0;
+  }
+
+  .section-escritorio {
+    padding: 0;
   }
 
   .hero-content {
