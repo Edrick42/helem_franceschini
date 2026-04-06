@@ -566,7 +566,7 @@ img {
 .marquee-track {
   display: flex;
   width: max-content;
-  animation: marqueeScroll 45s linear infinite;
+  animation: marqueeScroll 55s linear infinite;
 }
 
 .marquee-track-reverse {
@@ -587,18 +587,18 @@ img {
 
 .marquee-item {
   font-family: var(--font-display);
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   color: var(--cinza);
   white-space: nowrap;
   letter-spacing: 0.02em;
-  padding: 0.5rem 0.9rem;
+  padding: 0.65rem 1.2rem;
   border-left: 2px solid var(--cinza-light);
 }
 
 .marquee-item strong {
   color: var(--safira);
   font-weight: 600;
-  margin-right: 0.3rem;
+  margin-right: 0.4rem;
 }
 
 @keyframes marqueeScroll {
@@ -1028,6 +1028,77 @@ img {
   margin-bottom: 2.5rem;
 }
 
+.palestra-temas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 2rem auto 3rem;
+  max-width: 750px;
+}
+
+.palestra-tema {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: rgba(239, 235, 219, 0.7);
+  padding: 0.55rem 1.15rem;
+  border: 1px solid rgba(221, 186, 141, 0.25);
+  background: transparent;
+  border-radius: 50px;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: temaFadeIn 0.6s ease forwards;
+}
+
+.palestra-tema:nth-child(1) { animation-delay: 0.1s; }
+.palestra-tema:nth-child(2) { animation-delay: 0.25s; }
+.palestra-tema:nth-child(3) { animation-delay: 0.4s; }
+.palestra-tema:nth-child(4) { animation-delay: 0.55s; }
+.palestra-tema:nth-child(5) { animation-delay: 0.7s; }
+.palestra-tema:nth-child(6) { animation-delay: 0.85s; }
+.palestra-tema:nth-child(7) { animation-delay: 1.0s; }
+
+@keyframes temaFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.palestra-tema:hover,
+.palestra-tema.active {
+  color: var(--ambar);
+  border-color: var(--ambar);
+  background: rgba(221, 186, 141, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.palestra-desc {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--offwhite);
+  text-align: center;
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.7;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease, margin 0.4s ease, padding 0.4s ease;
+  padding: 0;
+}
+
+.palestra-desc.visible {
+  max-height: 120px;
+  opacity: 1;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+}
+
 .cta-btn {
   display: inline-block;
   font-family: var(--font-display);
@@ -1447,6 +1518,10 @@ a.location-link:hover {
 
   .about-eyebrow-mobile {
     display: flex;
+  }
+
+  #sobre {
+    padding-top: 0;
   }
 
   .about-photo {
