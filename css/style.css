@@ -397,7 +397,7 @@ img {
 .hero-title {
   font-family: var(--font-body);
   font-weight: 300;
-  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-size: clamp(2.5rem, 5.5vw, 4.2rem);
   line-height: 1.05;
   color: rgba(239, 235, 219, 0.4);
   margin-bottom: 1.75rem;
@@ -407,6 +407,7 @@ img {
 }
 
 .hero-name {
+  text-transform: uppercase;
   color: var(--ambar);
   display: block;
 }
@@ -676,6 +677,12 @@ img {
 
 .career-item:last-child {
   border-bottom: none;
+}
+
+.career-item-ruled {
+  border-top: 1px solid rgba(42, 41, 38, 0.15);
+  padding-top: 0.85rem;
+  margin-top: -0.75rem;
 }
 
 .career-item strong {
