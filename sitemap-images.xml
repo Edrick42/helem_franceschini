@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemaps-image/1.1">
+  <url>
+    <loc>https://www.helemfranceschini.com/</loc>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/helem-franceschini-profile-840w.jpg</image:loc>
+      <image:title>Helem Franceschini — Advogada estrategista e CEO do Franceschini Advogados Associados</image:title>
+      <image:caption>Helem Franceschini, CEO do Franceschini Advogados Associados, Rio de Janeiro</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/franceschini-advogados-identidade-visual.png</image:loc>
+      <image:title>Identidade visual do Franceschini Advogados Associados</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/palestra-01-plateia.webp</image:loc>
+      <image:title>Helem Franceschini — Palestra</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/palestra-02-tribuna.webp</image:loc>
+      <image:title>Helem Franceschini — Tribuna</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/palestra-03-palco.webp</image:loc>
+      <image:title>Helem Franceschini — Palco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/palestra-04-microfone.webp</image:loc>
+      <image:title>Helem Franceschini — Microfone</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/en/</loc>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/helem-franceschini-profile-840w.jpg</image:loc>
+      <image:title>Helem Franceschini — Strategic litigation attorney and CEO of Franceschini Advogados Associados</image:title>
+      <image:caption>Helem Franceschini, CEO of Franceschini Advogados Associados, Rio de Janeiro</image:caption>
+    </image:image>
+  </url>
+</urlset>

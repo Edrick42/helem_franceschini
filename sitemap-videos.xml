@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemaps-video/1.1">
+  <url>
+    <loc>https://www.helemfranceschini.com/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.helemfranceschini.com/assets/images/helem-franceschini-profile.jpg</video:thumbnail_loc>
+      <video:title>Helem Franceschini — Apresentação</video:title>
+      <video:description>Apresentação institucional de Helem Franceschini, CEO do Franceschini Advogados Associados, escritório boutique de contencioso estratégico empresarial no Rio de Janeiro.</video:description>
+      <video:content_loc>https://www.helemfranceschini.com/assets/videos/helem-franceschini-hero.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+      <video:publication_date>2026-04-06T00:00:00+00:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://www.helemfranceschini.com/assets/images/helem-franceschini-profile.jpg</video:thumbnail_loc>
+      <video:title>Áreas de Atuação — Franceschini Advogados Associados</video:title>
+      <video:description>Vídeo institucional sobre as áreas de atuação: contencioso estratégico empresarial, proteção patrimonial, Direito Digital, LGPD e tecnologia aplicada ao Direito.</video:description>
+      <video:content_loc>https://www.helemfranceschini.com/assets/videos/helem-franceschini-atuacao.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+      <video:publication_date>2026-04-06T00:00:00+00:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/en/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://www.helemfranceschini.com/assets/images/helem-franceschini-profile.jpg</video:thumbnail_loc>
+      <video:title>Helem Franceschini — Introduction</video:title>
+      <video:description>Corporate introduction of Helem Franceschini, CEO of Franceschini Advogados Associados, a boutique strategic corporate litigation firm in Rio de Janeiro, Brazil.</video:description>
+      <video:content_loc>https://www.helemfranceschini.com/assets/videos/helem-franceschini-hero.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:live>no</video:live>
+      <video:publication_date>2026-04-06T00:00:00+00:00</video:publication_date>
+    </video:video>
+  </url>
+</urlset>
