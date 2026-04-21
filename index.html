@@ -16,6 +16,9 @@
   <!-- SEO: Robots -->
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
+  <!-- SEO: Google Search Console verification -->
+  <meta name="google-site-verification" content="AG8P7zy0Y91193-DZ87xhCMQhsypLPZE5TnyPQFFQ3E">
+
   <!-- SEO: Canonical URL -->
   <link rel="canonical" href="https://helemfranceschini.com.br/">
 
@@ -48,6 +51,8 @@
 
   <!-- SEO: hreflang -->
   <link rel="alternate" hreflang="pt-BR" href="https://helemfranceschini.com.br/">
+  <link rel="alternate" hreflang="en" href="https://helemfranceschini.com.br/en/">
+  <link rel="alternate" hreflang="x-default" href="https://helemfranceschini.com.br/">
 
   <!-- SEO: Structured Data (JSON-LD) -->
   <script type="application/ld+json">
@@ -85,6 +90,99 @@
     "sameAs": [
       "https://www.instagram.com/helemfranceschini.adv",
       "https://www.linkedin.com/in/helem-franceschini-45b18839"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Áreas de atuação",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Contencioso Estratégico Empresarial",
+            "serviceType": "Strategic Corporate Litigation",
+            "description": "Atuação em disputas judiciais complexas que envolvem patrimônio, reputação e continuidade de negócios — com estratégia e posicionamento firme.",
+            "provider": { "@type": "LegalService", "name": "Franceschini Advogados Associados" },
+            "areaServed": { "@type": "Country", "name": "Brasil" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Proteção Patrimonial",
+            "serviceType": "Asset Protection",
+            "description": "Estruturação de blindagem jurídica para empresários e empresas que precisam proteger o que construíram ao longo de décadas.",
+            "provider": { "@type": "LegalService", "name": "Franceschini Advogados Associados" },
+            "areaServed": { "@type": "Country", "name": "Brasil" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Direito Digital e LGPD",
+            "serviceType": "Digital Law and Data Protection (LGPD)",
+            "description": "Adequação, compliance e defesa em questões de dados pessoais, privacidade e responsabilidade digital.",
+            "provider": { "@type": "LegalService", "name": "Franceschini Advogados Associados" },
+            "areaServed": { "@type": "Country", "name": "Brasil" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Tecnologia Aplicada ao Direito",
+            "serviceType": "Legal Technology and AI",
+            "description": "Inteligência artificial, automação e inovação como ferramentas de eficiência e vantagem competitiva na advocacia.",
+            "provider": { "@type": "LegalService", "name": "Franceschini Advogados Associados" },
+            "areaServed": { "@type": "Country", "name": "Brasil" }
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- SEO: VideoObject Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "VideoObject",
+        "name": "Helem Franceschini — Apresentação",
+        "description": "Apresentação institucional de Helem Franceschini, CEO do Franceschini Advogados Associados, escritório boutique de contencioso estratégico empresarial no Rio de Janeiro.",
+        "thumbnailUrl": "https://helemfranceschini.com.br/assets/images/helem-franceschini-profile.jpg",
+        "uploadDate": "2026-04-06",
+        "contentUrl": "https://helemfranceschini.com.br/assets/videos/helem-franceschini-hero.mp4",
+        "embedUrl": "https://helemfranceschini.com.br/#inicio",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Franceschini Advogados Associados",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://helemfranceschini.com.br/assets/logos/logotype.svg"
+          }
+        }
+      },
+      {
+        "@type": "VideoObject",
+        "name": "Áreas de Atuação — Franceschini Advogados Associados",
+        "description": "Vídeo institucional sobre as áreas de atuação: contencioso estratégico empresarial, proteção patrimonial, Direito Digital, LGPD e tecnologia aplicada ao Direito.",
+        "thumbnailUrl": "https://helemfranceschini.com.br/assets/images/helem-franceschini-profile.jpg",
+        "uploadDate": "2026-04-06",
+        "contentUrl": "https://helemfranceschini.com.br/assets/videos/helem-franceschini-atuacao.mp4",
+        "embedUrl": "https://helemfranceschini.com.br/#atuacao",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Franceschini Advogados Associados",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://helemfranceschini.com.br/assets/logos/logotype.svg"
+          }
+        }
+      }
     ]
   }
   </script>
@@ -154,6 +252,7 @@
           <a href="#atuacao" class="nav-link">Atuação</a>
           <a href="#palestras" class="nav-link">Palestras</a>
           <a href="#contato" class="nav-link">Contato</a>
+          <a href="/en/" class="nav-link nav-lang" hreflang="en" lang="en" aria-label="Switch to English version">EN</a>
           <div class="nav-socials">
             <a href="https://www.instagram.com/helemfranceschini.adv" class="nav-social" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
@@ -179,6 +278,7 @@
     <a href="#atuacao" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Atuação</a>
     <a href="#palestras" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Palestras</a>
     <a href="#contato" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Contato</a>
+    <a href="/en/" class="mobile-link mobile-lang" hreflang="en" lang="en" aria-label="Switch to English version">EN — English version</a>
     <div class="mobile-socials">
       <a href="https://www.instagram.com/helemfranceschini.adv" class="mobile-social" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
