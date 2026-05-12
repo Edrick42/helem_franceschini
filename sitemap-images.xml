@@ -37,4 +37,20 @@
       <image:caption>Helem Franceschini, CEO of Franceschini Advogados Associados, Rio de Janeiro</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/artigos/linguagem-invisivel-do-perigo.html</loc>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/articles/linguagem-invisivel-do-perigo-1600w.jpg</image:loc>
+      <image:title>A Linguagem Invisível do Perigo — Crimes Virtuais Contra Crianças e Adolescentes</image:title>
+      <image:caption>Imagem ilustrativa do artigo sobre crimes virtuais contra crianças e adolescentes no cenário digital brasileiro.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/en/articles/invisible-language-of-danger.html</loc>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/articles/linguagem-invisivel-do-perigo-1600w.jpg</image:loc>
+      <image:title>The Invisible Language of Danger — Cybercrimes Against Children and Adolescents</image:title>
+      <image:caption>Illustrative image for the article on cybercrimes against children and adolescents in Brazil's digital landscape.</image:caption>
+    </image:image>
+  </url>
 </urlset>

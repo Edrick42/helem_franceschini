@@ -6,19 +6,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── NAV SCROLL EFFECT ──
   const nav = document.getElementById('nav');
-  const hero = document.querySelector('.hero');
+  const hero = document.querySelector('.hero, .article-hero');
 
   const handleScroll = () => {
-    const heroBottom = hero.offsetHeight - 100;
-    if (window.scrollY > heroBottom) {
-      nav.classList.add('scrolled');
-    } else {
-      nav.classList.remove('scrolled');
+    if (hero) {
+      const heroBottom = hero.offsetHeight - 100;
+      if (window.scrollY > heroBottom) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
     }
 
     // Fallback reveal check on scroll
     checkReveal();
   };
+
+  // Pages without a dark hero (e.g. articles listing) start in scrolled state
+  if (!hero && nav) {
+    nav.classList.add('scrolled');
+  }
 
   window.addEventListener('scroll', handleScroll, { passive: true });
   // Run once on load
