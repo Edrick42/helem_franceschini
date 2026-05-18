@@ -21,7 +21,7 @@
   </url>
   <url>
     <loc>https://www.helemfranceschini.com/artigos/</loc>
-    <lastmod>2026-05-12</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.helemfranceschini.com/artigos/"/>
@@ -30,12 +30,30 @@
   </url>
   <url>
     <loc>https://www.helemfranceschini.com/en/articles/</loc>
-    <lastmod>2026-05-12</lastmod>
+    <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.helemfranceschini.com/artigos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.helemfranceschini.com/en/articles/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.helemfranceschini.com/artigos/"/>
+  </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/artigos/svalbard-preservacao-da-informacao.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.helemfranceschini.com/artigos/svalbard-preservacao-da-informacao.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.helemfranceschini.com/en/articles/svalbard-information-preservation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.helemfranceschini.com/artigos/svalbard-preservacao-da-informacao.html"/>
+  </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/en/articles/svalbard-information-preservation.html</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.helemfranceschini.com/artigos/svalbard-preservacao-da-informacao.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.helemfranceschini.com/en/articles/svalbard-information-preservation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.helemfranceschini.com/artigos/svalbard-preservacao-da-informacao.html"/>
   </url>
   <url>
     <loc>https://www.helemfranceschini.com/artigos/linguagem-invisivel-do-perigo.html</loc>

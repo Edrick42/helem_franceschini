@@ -53,4 +53,20 @@
       <image:caption>Illustrative image for the article on cybercrimes against children and adolescents in Brazil's digital landscape.</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/artigos/svalbard-preservacao-da-informacao.html</loc>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/articles/svalbard-preservacao-da-informacao-1600w.jpg</image:loc>
+      <image:title>Svalbard e a Preservação da Informação na Era Digital — O Poder da Interpretação</image:title>
+      <image:caption>Imagem ilustrativa do artigo sobre o Arctic World Archive, preservação de dados e soberania da informação na era digital.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/en/articles/svalbard-information-preservation.html</loc>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/articles/svalbard-preservacao-da-informacao-1600w.jpg</image:loc>
+      <image:title>Svalbard and the Preservation of Information in the Digital Age — The Power of Interpretation</image:title>
+      <image:caption>Illustrative image for the article on the Arctic World Archive, data preservation and information sovereignty in the digital age.</image:caption>
+    </image:image>
+  </url>
 </urlset>
