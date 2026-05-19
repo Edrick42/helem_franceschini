@@ -57,16 +57,42 @@
     <loc>https://www.helemfranceschini.com/artigos/svalbard-preservacao-da-informacao.html</loc>
     <image:image>
       <image:loc>https://www.helemfranceschini.com/assets/images/articles/svalbard-preservacao-da-informacao-1600w.jpg</image:loc>
-      <image:title>Svalbard e a Preservação da Informação na Era Digital — O Poder da Interpretação</image:title>
-      <image:caption>Imagem ilustrativa do artigo sobre o Arctic World Archive, preservação de dados e soberania da informação na era digital.</image:caption>
+      <image:title>Painel informativo do Svalbard Global Seed Vault</image:title>
+      <image:caption>Painel informativo do Svalbard Global Seed Vault em Longyearbyen, com a entrada do cofre e as montanhas ao fundo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/articles/helem-svalbard-seed-vault-960w.jpg</image:loc>
+      <image:title>Helem Franceschini no Svalbard Global Seed Vault</image:title>
+      <image:caption>Helem Franceschini diante da entrada do Svalbard Global Seed Vault, em Longyearbyen — Noruega.</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://www.helemfranceschini.com/en/articles/svalbard-information-preservation.html</loc>
     <image:image>
       <image:loc>https://www.helemfranceschini.com/assets/images/articles/svalbard-preservacao-da-informacao-1600w.jpg</image:loc>
-      <image:title>Svalbard and the Preservation of Information in the Digital Age — The Power of Interpretation</image:title>
-      <image:caption>Illustrative image for the article on the Arctic World Archive, data preservation and information sovereignty in the digital age.</image:caption>
+      <image:title>Informational panel of the Svalbard Global Seed Vault</image:title>
+      <image:caption>Informational panel of the Svalbard Global Seed Vault in Longyearbyen, with the vault entrance and mountains in the background.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/articles/helem-svalbard-seed-vault-960w.jpg</image:loc>
+      <image:title>Helem Franceschini at the Svalbard Global Seed Vault</image:title>
+      <image:caption>Helem Franceschini at the entrance of the Svalbard Global Seed Vault, in Longyearbyen — Norway.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/artigos/do-pingo-borrachinha-ao-prompt-injection.html</loc>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/articles/do-pingo-borrachinha-ao-prompt-injection-1600w.jpg</image:loc>
+      <image:title>Do Pingo Borrachinha ao Prompt Injection — Os Limites Éticos da Defesa do Cliente</image:title>
+      <image:caption>Imagem ilustrativa do artigo sobre ética profissional, prompt injection em petições e o paralelo com o caso Sahione (2003).</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/en/articles/pingo-borrachinha-to-prompt-injection.html</loc>
+    <image:image>
+      <image:loc>https://www.helemfranceschini.com/assets/images/articles/do-pingo-borrachinha-ao-prompt-injection-1600w.jpg</image:loc>
+      <image:title>From Pingo Borrachinha to Prompt Injection — The Ethical Limits of Client Defense</image:title>
+      <image:caption>Illustrative image for the article on legal ethics, prompt injection in court filings and the parallel with the 2003 Sahione case.</image:caption>
     </image:image>
   </url>
 </urlset>
