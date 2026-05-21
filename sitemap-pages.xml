@@ -91,4 +91,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.helemfranceschini.com/en/articles/invisible-language-of-danger.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.helemfranceschini.com/artigos/linguagem-invisivel-do-perigo.html"/>
   </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/privacidade.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.helemfranceschini.com/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.helemfranceschini.com/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.helemfranceschini.com/privacidade.html"/>
+  </url>
+  <url>
+    <loc>https://www.helemfranceschini.com/en/privacy.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.helemfranceschini.com/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.helemfranceschini.com/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.helemfranceschini.com/privacidade.html"/>
+  </url>
 </urlset>
