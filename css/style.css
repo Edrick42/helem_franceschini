@@ -558,6 +558,22 @@ img {
   color: rgba(239, 235, 219, 0.88);
 }
 
+.about-subtitle {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--safira);
+  line-height: 1.7;
+  margin: -0.5rem 0 2rem;
+  max-width: 660px;
+  letter-spacing: 0.005em;
+}
+
+.about-subtitle em {
+  font-style: italic;
+}
+
 /* ── ABOUT GRID ── */
 .about-grid {
   display: grid;
@@ -664,17 +680,6 @@ img {
   padding-bottom: 2rem;
   margin-bottom: 2.5rem;
   border-bottom: 1px solid rgba(42, 41, 38, 0.08);
-}
-
-.career-featured-tagline {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: clamp(1.15rem, 2.2vw, 1.45rem);
-  font-weight: 400;
-  color: var(--safira);
-  letter-spacing: 0.01em;
-  line-height: 1.45;
-  margin: 0 0 1.5rem;
 }
 
 .career-featured-pillars {
