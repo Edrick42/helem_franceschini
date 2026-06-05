@@ -660,6 +660,52 @@ img {
   margin-bottom: 2rem;
 }
 
+.career-featured {
+  padding-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid rgba(42, 41, 38, 0.08);
+}
+
+.career-featured-tagline {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+  font-weight: 400;
+  color: var(--safira);
+  letter-spacing: 0.01em;
+  line-height: 1.45;
+  margin: 0 0 1.5rem;
+}
+
+.career-featured-pillars {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.career-featured-pillars li {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--onix);
+  line-height: 1.5;
+  padding-left: 1rem;
+  border-left: 2px solid var(--ambar);
+}
+
+.career-featured-pillars li em {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.career-featured-pillars li span {
+  color: var(--cinza);
+  font-weight: 400;
+}
+
 .career-section {
   margin-bottom: 1.75rem;
 }
@@ -980,6 +1026,62 @@ img {
   color: rgba(239, 235, 219, 0.65);
   line-height: 1.7;
   max-width: 480px;
+}
+
+/* ── LIVRO ── */
+.section-livro {
+  position: relative;
+  background: linear-gradient(180deg, var(--onix) 0%, var(--safira) 100%);
+  overflow: hidden;
+}
+
+.section-livro::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--ambar) 50%, transparent 100%);
+  opacity: 0.6;
+}
+
+.livro-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.livro-title {
+  margin-bottom: 1.25rem;
+}
+
+.livro-subtitle {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--ambar);
+  letter-spacing: 0.02em;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.livro-desc {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.livro-cta {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 680px) {
+  .livro-subtitle {
+    font-size: 0.95rem;
+  }
 }
 
 /* ── CTA PALESTRA ── */
