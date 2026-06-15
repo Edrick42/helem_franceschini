@@ -262,9 +262,7 @@
         <div class="nav-links">
           <a href="#home" class="nav-link">Home</a>
           <a href="#about" class="nav-link">About</a>
-          <!-- HIDDEN: Book — restore when we have more launch info
           <a href="#book" class="nav-link nav-link-featured">Book</a>
-          -->
           <a href="#firm" class="nav-link">Firm</a>
           <a href="#practice" class="nav-link">Practice</a>
           <a href="#speaking" class="nav-link">Speaking</a>
@@ -292,9 +290,7 @@
   <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Navigation menu">
     <a href="#home" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Home</a>
     <a href="#about" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">About</a>
-    <!-- HIDDEN: Book — restore when we have more launch info
     <a href="#book" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Book</a>
-    -->
     <a href="#firm" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Firm</a>
     <a href="#practice" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Practice</a>
     <a href="#speaking" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Speaking</a>
@@ -411,7 +407,7 @@
       </div>
     </section>
 
-    <!-- BOOK — HIDDEN: restore when we have more launch info (cover, pre-order link, etc.)
+    <!-- BOOK -->
     <section class="section section-livro" id="book" aria-label="Book: The Age of Invisible Decisions">
       <div class="container">
         <div class="section-eyebrow eyebrow-ambar">
@@ -419,6 +415,12 @@
           <span>Release — June 26, 2026</span>
         </div>
         <div class="livro-grid">
+          <div class="livro-image">
+            <picture>
+              <source type="image/webp" srcset="/assets/images/livro-capa-420w.webp 420w, /assets/images/livro-capa-840w.webp 840w, /assets/images/livro-capa-1280w.webp 1280w" sizes="(max-width: 900px) 70vw, 420px">
+              <img src="/assets/images/livro-capa-840w.jpg" srcset="/assets/images/livro-capa-420w.jpg 420w, /assets/images/livro-capa-840w.jpg 840w, /assets/images/livro-capa-1280w.jpg 1280w" sizes="(max-width: 900px) 70vw, 420px" alt="Cover of the book 'A era das decisões invisíveis' (The Age of Invisible Decisions) by Helem Franceschini — black background with gold border, yellow title and a stylized fingerprint with circuit motifs" width="1280" height="1932" loading="lazy">
+            </picture>
+          </div>
           <div class="livro-content">
             <h2 class="section-title title-light livro-title">
               The Age of Invisible<br>
@@ -436,8 +438,6 @@
         </div>
       </div>
     </section>
-    -->
-    <!-- /BOOK HIDDEN -->
 
     <!-- FIRM -->
     <section class="section section-escritorio" id="firm" aria-label="Franceschini Advogados Associados">

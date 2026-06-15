@@ -265,9 +265,7 @@
         <div class="nav-links">
           <a href="#inicio" class="nav-link">Início</a>
           <a href="#sobre" class="nav-link">Sobre</a>
-          <!-- HIDDEN: Livro — restaurar quando tivermos mais info do lançamento
           <a href="#livro" class="nav-link nav-link-featured">Livro</a>
-          -->
           <a href="#escritorio" class="nav-link">Escritório</a>
           <a href="#atuacao" class="nav-link">Atuação</a>
           <a href="#palestras" class="nav-link">Palestras</a>
@@ -295,9 +293,7 @@
   <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Menu de navegação">
     <a href="#inicio" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Início</a>
     <a href="#sobre" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Sobre</a>
-    <!-- HIDDEN: Livro — restaurar quando tivermos mais info do lançamento
     <a href="#livro" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Livro</a>
-    -->
     <a href="#escritorio" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Escritório</a>
     <a href="#atuacao" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Atuação</a>
     <a href="#palestras" class="mobile-link" onclick="document.getElementById('mobileMenu').classList.remove('open');document.getElementById('navToggle').classList.remove('open');document.body.style.overflow='';">Palestras</a>
@@ -414,7 +410,7 @@
       </div>
     </section>
 
-    <!-- LIVRO — HIDDEN: restaurar quando tivermos mais info do lançamento (capa, link de pré-venda, etc.)
+    <!-- LIVRO -->
     <section class="section section-livro" id="livro" aria-label="Livro: A era das decisões invisíveis">
       <div class="container">
         <div class="section-eyebrow eyebrow-ambar">
@@ -422,6 +418,12 @@
           <span>Lançamento — 26 de junho de 2026</span>
         </div>
         <div class="livro-grid">
+          <div class="livro-image">
+            <picture>
+              <source type="image/webp" srcset="assets/images/livro-capa-420w.webp 420w, assets/images/livro-capa-840w.webp 840w, assets/images/livro-capa-1280w.webp 1280w" sizes="(max-width: 900px) 70vw, 420px">
+              <img src="assets/images/livro-capa-840w.jpg" srcset="assets/images/livro-capa-420w.jpg 420w, assets/images/livro-capa-840w.jpg 840w, assets/images/livro-capa-1280w.jpg 1280w" sizes="(max-width: 900px) 70vw, 420px" alt="Capa do livro 'A era das decisões invisíveis' de Helem Franceschini — fundo preto com borda dourada, título em amarelo e uma impressão digital estilizada com circuito" width="1280" height="1932" loading="lazy">
+            </picture>
+          </div>
           <div class="livro-content">
             <h2 class="section-title title-light livro-title">
               A era das decisões<br>
@@ -439,8 +441,6 @@
         </div>
       </div>
     </section>
-    -->
-    <!-- /LIVRO HIDDEN -->
 
     <!-- ESCRITÓRIO -->
     <section class="section section-escritorio" id="escritorio" aria-label="Franceschini Advogados Associados">
