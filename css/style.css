@@ -1104,6 +1104,25 @@ img {
   align-self: flex-start;
 }
 
+.livro-contato {
+  margin-top: 1rem;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.01em;
+}
+
+.livro-contato a {
+  color: var(--ambar);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(228, 179, 76, 0.35);
+  transition: border-color 0.2s ease;
+}
+
+.livro-contato a:hover {
+  border-bottom-color: var(--ambar);
+}
+
 @media (max-width: 900px) {
   .livro-grid {
     grid-template-columns: 1fr;
